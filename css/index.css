@@ -64,6 +64,23 @@ html, body{
 	text-shadow: 1px 1px 1px black;
 }
 
+/* Contatos flutuante */
+
+.contatos{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	width: 100%;
+	z-index: 2700;
+	position:fixed;
+	top:10%;
+	background-color:var(--azulEscuro);
+}
+
+.contatos p{
+	color:#f1f1f1;
+}
+
 /*Menu responsivo*/
 
 .bars{
