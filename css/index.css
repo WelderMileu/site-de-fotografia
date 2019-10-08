@@ -511,6 +511,61 @@ html, body{
 	color: var(--azulClaro);
 }
 
+/* Section Informativo */
+
+.informativo{
+	margin:auto 20%;
+	margin-top: 10%;
+	margin-bottom: 10px;
+}
+
+.informativo .informa{
+	display: flex;
+}
+
+.informativo .informa div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+.informativo .informa div div:nth-child(1){
+	border:2px solid var(--azulClaro);
+	border-radius: 3px;
+	color: var(--azulClaro);
+	width: 100px;
+	height: 100px;
+	font-size: 	2rem;
+	transform: rotate(135deg);
+	margin-bottom: 35px;
+	transition: .3s ease-in-out;
+	cursor: pointer;
+}
+
+.informativo .informa div div:nth-child(1):hover{
+	background-color: var(--azulClaro);
+	color:white;
+	transform: rotate(135deg) scale(1.2);
+}
+
+.informativo .informa div div:nth-child(1) i{
+	transform: rotate(225deg);
+}
+
+.informativo .informa div div:nth-child(2) p{
+	font-family: 'roboto', sans-serif;
+}
+
+.btn-int{
+	padding: 10px 30px;
+	font-size: 1rem;
+	color:white;
+	border:none;
+	background-color: var(--azulClaro);
+}
+
 @media(max-width: 780px){
 	.bars{
 		display: block;
@@ -606,6 +661,14 @@ html, body{
 
 	.from-contact .container .group .form{
 		margin-left: -3%;
+	}
+
+	.informativo .informa{
+		flex-direction: column;
+	}
+
+	.informativo .informa div{
+		margin-bottom: 	50px;
 	}
 }
 
