@@ -6,7 +6,7 @@
 
 `HTML`
 
-- [ ] Fazer a pagina de contato.
+- [x] Fazer a pagina de contato.
 - [x] Fazer a parte do sobre-nos.
 - [ ] Fazer a parte do rodape.
 - [ ] Arrumar o nosso '''layate''' que ta feio.
@@ -14,6 +14,7 @@
 `CSS`
 
 - [ ] Ajustar algumas coisas no responsivo do site.
+- [ ] Arrumar o formulario de contato em forma responsiva
 
 `JS`
 

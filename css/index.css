@@ -486,10 +486,6 @@ html, body{
 	text-align: center;
 }
 
-
-
-
-
 @media(max-width: 780px){
 	.bars{
 		display: block;
@@ -571,6 +567,20 @@ html, body{
 
 	.body .card .card-img img{
 		width: 100%;
+	}
+
+	.from-contact .container .group{
+		display: flex;
+		padding: 20px;
+		flex-direction: column;
+	}
+
+	.location iframe{
+		width: 100%;
+	}
+
+	.from-contact .container .group .form{
+		margin-left: -3%;
 	}
 }
 
