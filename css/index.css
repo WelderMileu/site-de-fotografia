@@ -494,6 +494,23 @@ html, body{
 	text-align: center;
 }
 
+/* Localização da pagina de contato */
+
+.local{
+	display: flex;
+	padding: 20px;
+	font-family: 'roboto', sans-serif;
+}
+
+.local div:nth-child(1){
+	padding-right: 20px;
+}
+
+.local div:nth-child(1) i{
+	font-size: 3rem;
+	color: var(--azulClaro);
+}
+
 @media(max-width: 780px){
 	.bars{
 		display: block;
