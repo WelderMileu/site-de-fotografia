@@ -475,7 +475,16 @@ html, body{
 	border:transparent;
 }
 
-
+.from-contact .container .title h1{
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-family: 'roboto', sans-serif;
+	margin-bottom: 10px;
+	color:white;
+	text-shadow: 0px 0px 2px black;
+	padding-bottom: 20px;
+	text-align: center;
+}
 
 
 
