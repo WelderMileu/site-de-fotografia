@@ -207,10 +207,11 @@ html, body{
 
 .indicator{
 	grid-area: indicator;
-	color:var(--branco);
+	color:var(--azulClaro);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-shadow: 0px 0px .5px var(--azulClaro);
 }
 
 .indicator i{
@@ -224,7 +225,7 @@ html, body{
 	height: 150px;
 	object-fit: cover;
 	border-radius: 2px;
-	border:1px solid #fff;
+	border:1px solid var(--azulEscuro);
 }
 
 .transp .fundo{
@@ -297,6 +298,8 @@ html, body{
 	padding: 0px;
 	box-shadow: 0px 30px 60px 0px black;
 	margin-bottom: 100px;
+	border-radius: 3px;
+	overflow: hidden;
 }
 
 .body .card .card-text{
@@ -318,6 +321,11 @@ html, body{
 	text-align: left;
 	font-size: 1rem;
 	color:var(--branco);
+}
+
+.body .card .card-img{
+	width: 100%;
+	overflow: hidden;
 }
 
 .body .card .card-img img{
@@ -351,6 +359,19 @@ html, body{
 .transp .linha i{
 	padding-right: 20px;
 	color: var(--azulClaro);
+	font-size: 1.1rem;
+}
+
+.transp .linha i::after{
+	content: '';
+	width: 20px;
+	height: 20px;
+	border:3px solid var(--marron);
+	border-radius: 100%;
+	position: absolute;
+	transform: translate(-10%, -10%);
+	left: 14.4%;
+	top:0.20%;
 }
 
 .transp .linha .item{
