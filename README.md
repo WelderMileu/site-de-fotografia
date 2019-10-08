@@ -9,7 +9,7 @@
 - [x] Fazer a pagina de contato.
 - [x] Fazer a parte do sobre-nos.
 - [ ] Fazer a parte do rodape.
-- [ ] Arrumar o nosso '''layate''' que ta feio.
+- [x] Arrumar o nosso '''layate''' que ta feio.
 
 `CSS`
 
