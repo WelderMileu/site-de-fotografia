@@ -452,6 +452,7 @@ html, body{
 	border-bottom-right-radius: 3px; 
 	padding-left: 10px;
 	font-family: 'roboto', sans-serif;
+	transition: .5s ease-in-out;
 }
 
 .form-text{
@@ -463,6 +464,13 @@ html, body{
 	height: 150px;
 	margin-left: 2%;
 	font-family: 'roboto', sans-serif;
+	transition: .2s ease-in-out;
+}
+
+.form-control:focus,
+.form-text:focus{
+	border:1px solid transparent;
+	box-shadow: 0px 0px 3px var(--azulClaro);
 }
 
 .btn-form{
