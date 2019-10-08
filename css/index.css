@@ -404,6 +404,7 @@ html, body{
 
 .from-contact{
 	margin: auto 20%;
+	background-color: #f1f1f1;
 }
 
 .from-contact .container{
@@ -484,6 +485,7 @@ html, body{
 }
 
 .from-contact .container .title h1{
+	padding-top: 30px;
 	font-size: 2rem;
 	text-transform: uppercase;
 	font-family: 'roboto', sans-serif;
@@ -535,8 +537,8 @@ html, body{
 	border:2px solid var(--azulClaro);
 	border-radius: 3px;
 	color: var(--azulClaro);
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	font-size: 	2rem;
 	transform: rotate(135deg);
 	margin-bottom: 35px;
@@ -556,6 +558,7 @@ html, body{
 
 .informativo .informa div div:nth-child(2) p{
 	font-family: 'roboto', sans-serif;
+	padding: 20px;
 }
 
 .btn-int{
