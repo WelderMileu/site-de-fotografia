@@ -10,6 +10,7 @@
 - [x] Fazer a parte do sobre-nos.
 - [ ] Fazer a parte do rodape.
 - [x] Arrumar o nosso '''layate''' que ta feio.
+- [x] Fazer a parte dos colaboradores
 
 `CSS`
 
