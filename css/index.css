@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
 @import 'root.css';
 
 *,::before, ::after{
@@ -18,13 +20,18 @@ html, body{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	padding: 15px;
+	padding: 0px;
 	background-color: transparent;
-	border-bottom: 1px solid var(--branco);
+	border-bottom: 1px solid #f1f1f1;
 	position: fixed;
 }
 
 /*Icone do Menu*/
+.nav-brend{
+	border-right:1px solid #f1f1f1;
+	padding: 10px;
+}
+
 .nav-brend span{
 	display: flex;
 	color:var(--azulClaro);
@@ -36,6 +43,7 @@ html, body{
 /* Menu da Aplicação */
 .navbar-nav .nav-menu{
 	display: flex;
+	padding: 10px;
 }
 
 .navbar-nav .nav-menu .nav-items{
@@ -69,13 +77,13 @@ html, body{
 .contatos{
 	display: flex;
 	justify-content: space-around;
-	padding: 2px;
+	padding-bottom: 10px;
 	width: 100%;
 	z-index: 2700;
 	position:fixed;
 	top:10%;
 	background-color:transparent;
-	border-bottom: 1px solid var(--branco);
+	border-bottom: 1px solid #f1f1f1;
 }
 
 .contatos p{
@@ -111,8 +119,8 @@ html, body{
 .sociais{
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top:70%;
-	left: 97%;
+	top:75%;
+	left: 2%;
 }
 
 .sociais ul li{
@@ -122,7 +130,7 @@ html, body{
 
 .sociais ul li a{
 	text-decoration: none;
-	color:var(--branco);
+	color:#f1f1f1;
 	font-size: 1.2rem;
 }
 
@@ -139,11 +147,53 @@ html, body{
 	align-items: center;
 }
 
-.info p{
-	color:#fff;
-	font-size: 1.5rem;
-	text-shadow: 0px 0px 2px var(--azulMaisEscuro);
+.info h3{
+	color:var(--azulClaro);
+	font-family: 'Cinzel', serif;
+	font-size: 1.8rem;
+	text-shadow: 0px 0px 1px var(--branco);
 	text-transform: uppercase;
+}
+
+.info p{
+	padding: 15px;
+	text-align: center;
+	color:white;
+	font-family: 'roboto', sans-serif;
+	font-size: 1.2rem;
+}
+
+/* Infeites */
+
+.infants{
+	height: 50%;
+	position: absolute;
+	transform: translate(0%, -50%);
+	width: 35px;
+	background-color: transparent;
+	border-right:1px solid var(--branco);
+	top:39.3%;
+	padding: 5px;
+	padding-top: 50px;
+}
+
+.infants div:nth-child(1) i{
+	width: 20px;
+	height: 20px;
+	font-size: .5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom:10px;
+	padding: 10px;
+	color:#f1f1f1;
+}
+
+.infants div:nth-child(1) i:nth-child(1){
+	font-size: .8rem;
+	border:2px solid #f1f1f1;
+	border-radius: 100%;
 }
 
 .btn{
@@ -164,13 +214,13 @@ html, body{
 }
 
 .btn-primary{
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	color:#fff;
 	border:none;
 	border:2px solid #f1f1f1;
 	border-radius: 100%;
-	padding: 10px;
+	padding: 0px;
 	font-size: 2rem;	
 }
 
