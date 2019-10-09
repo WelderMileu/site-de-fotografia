@@ -79,7 +79,7 @@ html, body{
 }
 
 .contatos p{
-	color:#f1f1f1;
+	color:var(--branco);
 }
 
 /*Menu responsivo*/
@@ -422,6 +422,9 @@ html, body{
 	margin-left: 10%;
 }
 
+.from-contact .container .group .location p{
+	color:var(--azulEscuro);
+}
 /* Input-group */
 
 .input-group{
@@ -441,6 +444,7 @@ html, body{
 	border-bottom-left-radius: 3px;
 	height: 40px;
 }
+
 
 .input-group .input-group-prepend .input-group-text{
 	color:#f1f1f1;
@@ -560,7 +564,7 @@ html, body{
 .informativo .informa div div:nth-child(2) p{
 	font-family: 'roboto', sans-serif;
 	padding: 20px;
-	color:var(--marron);
+	color:var(--azulEscuro);
 }
 
 .btn-int{
