@@ -8,14 +8,17 @@
 	});
 
 	// Mudar cor do menu quanto o top chegar a 10px
-	window.addEventListener("scroll", () => {
-		if (window.scrollTop >= 10) {
-			$(".nav").style.backgroudColor = "black";
-			console.log($(".content").scrollTop);
-		}else{
-			$(".nav").style.backgroudColor = "blue";
-			console.log($(".content").scrollTop);
-		}
-	})
+	window.onscroll = function(){
+  	var top = window.pageYOffset || document.documentElement.scrollTop
+   		if( top >= 550 ) {
+   			$(".nav").style.transition = ".5s ease-in-out";
+   			$(".contatos").style.transition = ".5s ease-in-out";
+       		$(".nav").style.backgroundColor = "var(--branco)";
+       		$(".contatos").style.backgroundColor = "var(--branco)";
+   		}else{
+   			$(".nav").style.backgroundColor = "transparent";
+   			$(".contatos").style.backgroundColor = "transparent";
+   		}
+	}
 
 })();

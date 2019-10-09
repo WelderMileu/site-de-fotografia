@@ -18,12 +18,15 @@ html, body{
 .nav{
 	z-index: 3000;
 	width: 100%;
-	display: flex;
-	justify-content: space-between;
 	padding: 0px;
 	background-color: transparent;
 	border-bottom: 1px solid #f1f1f1;
 	position: fixed;
+}
+
+.nav .space{
+	display: flex;
+	justify-content: space-between;
 }
 
 /*Icone do Menu*/
@@ -78,17 +81,17 @@ html, body{
 .contatos{
 	display: flex;
 	justify-content: space-around;
-	padding-bottom: 10px;
+	padding: 10px;
 	width: 100%;
 	z-index: 2700;
 	position:fixed;
-	top:10%;
 	background-color:transparent;
 	border-bottom: 1px solid #f1f1f1;
 }
 
 .contatos p{
 	color:#f1f1f1;
+	text-shadow: 0px 0px 3px black;
 }
 
 /*Menu responsivo*/
@@ -96,6 +99,7 @@ html, body{
 .bars{
 	display: none;
 	cursor: pointer;
+	padding: 10px;
 }
 
 .bars div{
