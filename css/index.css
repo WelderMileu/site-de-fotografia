@@ -20,7 +20,7 @@ html, body{
 	justify-content: space-between;
 	padding: 15px;
 	background-color: var(--azulEscuro);
-	border-bottom: 1px solid var(--azulClaro);
+	border-bottom: 1px solid var(--branco);
 	position: fixed;
 }
 
@@ -75,7 +75,7 @@ html, body{
 	position:fixed;
 	top:10%;
 	background-color:var(--azulEscuro);
-	border-bottom: 3px solid var(--azulClaro);
+	border-bottom: 3px solid var(--branco);
 }
 
 .contatos p{
@@ -122,7 +122,7 @@ html, body{
 
 .sociais ul li a{
 	text-decoration: none;
-	color:var(--branco);
+	color:var(--marron);
 	font-size: 1.5rem;
 }
 
@@ -225,7 +225,7 @@ html, body{
 	height: 150px;
 	object-fit: cover;
 	border-radius: 2px;
-	border:1px solid var(--azulEscuro);
+	border:1px solid var(--marron);
 }
 
 .transp .fundo{
@@ -278,8 +278,9 @@ html, body{
 }
 
 .apresentacao .informacao p{
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-family: 'roboto', sans-serif;
+	opacity: .6;
 }
 
 /* Corpo do site */
@@ -559,6 +560,7 @@ html, body{
 .informativo .informa div div:nth-child(2) p{
 	font-family: 'roboto', sans-serif;
 	padding: 20px;
+	color:var(--marron);
 }
 
 .btn-int{
