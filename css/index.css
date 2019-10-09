@@ -19,7 +19,7 @@ html, body{
 	display: flex;
 	justify-content: space-between;
 	padding: 15px;
-	background-color: var(--azulEscuro);
+	background-color: transparent;
 	border-bottom: 1px solid var(--branco);
 	position: fixed;
 }
@@ -74,12 +74,12 @@ html, body{
 	z-index: 2700;
 	position:fixed;
 	top:10%;
-	background-color:var(--azulEscuro);
-	border-bottom: 3px solid var(--branco);
+	background-color:transparent;
+	border-bottom: 1px solid var(--branco);
 }
 
 .contatos p{
-	color:var(--branco);
+	color:#f1f1f1;
 }
 
 /*Menu responsivo*/
@@ -101,7 +101,7 @@ html, body{
 	width: 100%;
 	height: 600px;
 	background-color: var(--azulMaisEscuro);
-	background-image: url('../img/img01.jpeg');
+	background-image: url('../img/nav02_alt.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -127,18 +127,23 @@ html, body{
 }
 
 .info{
-	width: 30%;
+	width: 50%;
 	position: absolute;
-	transform: translate(-50%, -50%);
-	left:20%;
-	top:50%;
+	transform: translate(50%, 50%);
+	top:20%;
+	left:0%;
 	z-index: 1000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .info p{
 	color:#fff;
 	font-size: 1.5rem;
 	text-shadow: 0px 0px 2px var(--azulMaisEscuro);
+	text-transform: uppercase;
 }
 
 .btn{
@@ -159,9 +164,14 @@ html, body{
 }
 
 .btn-primary{
+	width: 100px;
+	height: 100px;
 	color:#fff;
-	background-color: var(--azulClaro);
-	border:none;	
+	border:none;
+	border:2px solid #f1f1f1;
+	border-radius: 100%;
+	padding: 10px;
+	font-size: 2rem;	
 }
 
 .btn-default{
@@ -171,39 +181,6 @@ html, body{
 }
 
 
-.port{
-	border-radius: 2px;
-	position: absolute;
-	transform: translate(-50%, -50%);
-	top:50%;
-	left: 70%;
-	background-color: transparent;
-	padding: 5px;
-	display: grid;
-	grid-gap: 10px;
-	grid-template-areas: "um um um"
-						 "dois tres quatro"
-						 "indicator indicator indicator";
-}		
-
-.port img:nth-child(1){
-	grid-area: um;
-	width: 100%;
-	height: 200px;
-}
-
-.port img:nth-child(2){
-	grid-area: dois;
-}
-
-.port img:nth-child(3){
-	grid-area: tres;
-
-}
-
-.port img:nth-child(4){
-	grid-area: quatro;
-}
 
 .indicator{
 	grid-area: indicator;
@@ -238,18 +215,6 @@ html, body{
 	transform: translate(-50%, -50%) rotate(330deg);
 	left: 50%;
 	top:40%;
-}
-
-.transp .iluster{
-	z-index: 1200;
-	position:absolute;
-	color: var(--marron);
-	opacity: .3;
-	text-transform: uppercase;
-	font-size: .8rem;
-	transform: translate(-50%, -50%) rotate(90deg);
-	top:28%;
-	left: 88%;
 }
 
 /*apresentação*/
