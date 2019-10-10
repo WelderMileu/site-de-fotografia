@@ -13,8 +13,8 @@
    		if( top >= 550 ) {
    			$(".nav").style.transition = ".5s ease-in-out";
    			$(".contatos").style.transition = ".5s ease-in-out";
-       		$(".nav").style.backgroundColor = "var(--branco)";
-       		$(".contatos").style.backgroundColor = "var(--branco)";
+       		$(".nav").style.backgroundColor = "var(--azulEscuro)";
+       		$(".contatos").style.backgroundColor = "var(--azulEscuro)";
    		}else{
    			$(".nav").style.backgroundColor = "transparent";
    			$(".contatos").style.backgroundColor = "transparent";
