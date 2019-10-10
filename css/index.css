@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap');
 @import 'root.css';
 
 *,::before, ::after{
@@ -312,17 +313,13 @@ html, body{
 
 .body .card{
 	display: flex;
-	padding: 0px;
-	box-shadow: 0px 30px 60px 0px black;
 	margin-bottom: 100px;
-	border-radius: 3px;
-	overflow: hidden;
 }
 
 .body .card .card-text{
 	font-family: 'roboto', sans-serif;
 	width: 300px;
-	background-color: var(--azulEscuro);
+	background-color: transparent;
 	padding: 20px;
 	width: 100%;
 }
@@ -330,32 +327,26 @@ html, body{
 .body .card .card-text .card-title{
 	color:white;
 	text-shadow: 0px 0px 1px var(--azulClaro);
+	text-transform: uppercase;
 }
 
 .body .card .card-text .card-content{
+	width: 300px;
 	margin-top: 40px;
 	padding: 10px;
 	text-align: left;
 	font-size: 1rem;
-	color:var(--branco);
-}
-
-.body .card .card-img{
-	width: 100%;
-	overflow: hidden;
+	color:grey;
+	font-family: 'roboto', sans-serif;
+	font-weight: 100;
+	border-left: 2px solid var(--azulClaro);
 }
 
 .body .card .card-img img{
-	width: 400px;
-	height: 400px;
+	width: 300px;
 	object-fit: cover;
 	cursor: pointer;
 	transition: .5s ease-in-out;
-}
-
-
-.body .card .card-img:hover img{
-	transform: scale(1.2);
 }
 
 /* Pagina de Contato */
