@@ -557,9 +557,16 @@ html, body{
 	justify-content: space-between;
 }
 
+.colaboradores .func .coll{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
 .colaboradores .func .coll .img .prof{
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	object-fit: cover;
 	object-position: center;
 	border-radius:100%;
@@ -701,8 +708,8 @@ html, body{
 		justify-content: end;
 	}
 
-	.colaboradores .func .coll .descriptions::before{
-		transform: translate(130%, -10%) rotate(-160deg);
+	.colaboradores .func .coll{
+		margin-top: 100px;
 	}
 }
 
