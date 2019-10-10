@@ -314,6 +314,9 @@ html, body{
 .body .card{
 	display: flex;
 	margin-bottom: 100px;
+	background-color: #fff;
+	border-radius: 5px;
+	overflow: hidden;
 }
 
 .body .card .card-text{
@@ -569,25 +572,17 @@ html, body{
 .colaboradores .func .coll .descriptions{
 	color:white;
 	padding: 20px;
-}
-
-.colaboradores .func .coll .descriptions::before{
-	content: '';
-	width: 150px;
-	height: 150px;
-	background-color: #f1f1f1;
-	position: absolute;
-	transform: translate(120%, 0%) rotate(-160deg);
+	text-align: center;
 }
 
 .colaboradores .func .coll .descriptions h3{
-	background-color: var(--azulEscuro);
+	color: var(--azulEscuro);
 	padding: 5px;
 }
 
 .colaboradores .func .coll .descriptions p:nth-child(2){
 	margin: 5px 0px 5px 0px;
-	background-color: var(--marron);
+	color: var(--marron);
 	padding: 5px;
 }
 
