@@ -733,7 +733,7 @@ html, body{
 	}
 
 	.info{
-		width: 70%;
-		transform: translate(20%, 50%);
+		width: 70% !important;
+		transform: translate(20%, 50%)!important;
 	}
 }
