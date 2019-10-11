@@ -711,6 +711,9 @@ html, body{
 	.colaboradores .func .coll{
 		margin-top: 100px;
 	}
+	.infants{
+		border-right:none;
+	}
 }
 
 @media(max-width: 514px){
@@ -723,7 +726,4 @@ html, body{
 		margin-top: 100px;
 	}
 
-	.infants{
-		border-right:none;
-	}
 }
