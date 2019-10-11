@@ -15,8 +15,12 @@
 `CSS`
 
 - [ ] Ajustar algumas coisas no responsivo do site.
-- [ ] Arrumar o formulario de contato em forma responsiva
+- [x] Arrumar o formulario de contato em forma responsiva
 
 `JS`
 
 - [ ] Fazer o toggle do menu abrir suave.
+
+`Github Pages`
+
+- [ ] Subir as imagens que estão dando erro
