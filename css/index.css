@@ -179,7 +179,7 @@ html, body{
 	transform: translate(0%, -50%);
 	width: 35px;
 	background-color: transparent;
-	border-right:1px solid var(--branco);
+	/*border-right:1px solid var(--branco);*/
 	top:39.3%;
 	padding: 5px;
 	padding-top: 50px;
@@ -710,9 +710,6 @@ html, body{
 
 	.colaboradores .func .coll{
 		margin-top: 100px;
-	}
-	.infants{
-		border-right:none;
 	}
 }
 
