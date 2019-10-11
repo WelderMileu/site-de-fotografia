@@ -731,4 +731,8 @@ html, body{
 		margin: auto 4%;
 		background-color: #f1f1f1;
 	}
+
+	.info{
+		width: 70%;
+	}
 }
