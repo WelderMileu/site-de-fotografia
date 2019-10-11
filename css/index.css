@@ -602,7 +602,7 @@ html, body{
 	padding: 5px;	
 }
 
-@media(max-width: 780px){
+@media only screen and (max-width: 780px){
 	.bars{
 		display: block;
 	}
